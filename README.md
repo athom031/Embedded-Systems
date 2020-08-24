@@ -57,7 +57,7 @@ make test
 Help player Smee (>) avoid the obstacles that ever increase in speed. <br/>
 Try and beat your high score!
 
-[Demo](https://youtu.be/kZFsC9rSBdo)
+[Demo](https://youtu.be/kZFsC9rSBdo) <br/>
 [Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/LCDRacer)
 
 <div id="lab11"></div>
@@ -74,7 +74,7 @@ Implement a task scheduler to print the character last pressed.
 #### Part 4
 Have a string displayed that takes up the display and implement a task scheduler to iterate through the display index and output user characters over the string.
 
-[Demo](https://youtu.be/onJCacxnShQ)
+[Demo](https://youtu.be/onJCacxnShQ) <br/>
 [Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab11)
 
 <div id="lab10"></div>
@@ -90,7 +90,7 @@ An edited concurrent SM from the one above that now includes a speaker to be tog
 #### Part 4
 Includes user input to change what frequency the speaker outputs audio.
 
-[Demo](https://youtu.be/swwiqgo0ODQ)
+[Demo](https://youtu.be/swwiqgo0ODQ) <br/>
 [Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab10)
 
 <div id="lab9"></div>
@@ -104,7 +104,7 @@ A SM that uses PWM functionality to scale through the C scale.
 #### Part 3 
 A SM that uses PWM functionality to play Kal Ho Na Ho theme.
 
-[Demo](https://youtu.be/0He5l6V-2h0)
+[Demo](https://youtu.be/0He5l6V-2h0) <br/>
 [Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab9)
 
 <div id="lab8"></div>
@@ -120,7 +120,7 @@ A system that uses max and min results from previous lab to then only illuminate
 #### Part 4
 A system, using a bank of eight LEDs, where the number of LEDs illuminated is a representation of how much light is detected. 
 
-[Demo](https://youtu.be/WifXfBjOIZE)
+[Demo](https://youtu.be/WifXfBjOIZE) <br/>
 [Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab8)
 
 <div id="lab7"></div>
@@ -132,7 +132,7 @@ Output a number that can be incremented or decremented with a button press.
 #### Part 2
 Cycling LED array cycle game, where score is incrememnted when the button is pressed and the middle light is illuminated.
 
-[Demo](https://youtu.be/7MUxzIRRO7U)
+[Demo](https://youtu.be/7MUxzIRRO7U) <br/>
 [Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab7)
 
 <div id="lab6"></div>
@@ -146,7 +146,7 @@ A simple light game that requires pressing a button when the middle light is ill
 #### Part 3
 LEDs represents bit # representation. Pressing one button increases the #, presssing another decreases the #.
 
-[Demo](https://youtu.be/5JkeYeg2FGo)
+[Demo](https://youtu.be/5JkeYeg2FGo) <br/>
 [Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab6)
 
 <div id="lab5"></div>
@@ -160,7 +160,7 @@ Increment or decrement output with button presses.
 #### Part 3
 A festive light display.
 
-[Demo](https://youtu.be/xjrFZ647MQU)
+[Demo](https://youtu.be/xjrFZ647MQU) <br/>
 [Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab5)
 
 <div id="lab4"></div>
@@ -211,4 +211,4 @@ Extended available parking for a warning if parking lot is full.
 #### Part 4
 Weight sensor for amusement park ride with three seats that insures the weight is balanced.
 
-[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab2)
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab2) 
