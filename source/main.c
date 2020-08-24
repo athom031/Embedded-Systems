@@ -1,7 +1,5 @@
 /*	Author: Alex Thomas
- *  Partner(s) Name: 
- *	Lab Section: 021
- *	Assignment: Optional Final - LCD RACER
+ *  Assignment: Optional Final - LCD RACER
  *
  *	Exercise Description: LCD racing game help Smee (>) avoid the obstacles
  *

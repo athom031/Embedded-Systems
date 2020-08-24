@@ -27,7 +27,6 @@ make program
 make test
 ```
 
-
 ## Projects
 <!--                    TABLE OF CONTENTS                                   -->
 ### Table of Contents
@@ -49,259 +48,167 @@ make test
 <br/>
 
 <div id="lcd"></div>
+<!--                           PROJECTS                                      -->
 
-### Final Project - LCD Racer
+### Final Project: LCD Racer
 
+#### LCD racing game. <br/>
+
+Help player Smee (>) avoid the obstacles that ever increase in speed. <br/>
+Try and beat your high score!
+
+[Demo](https://youtu.be/kZFsC9rSBdo)
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/LCDRacer)
 
 <div id="lab11"></div>
 
-### Lab 11
+### Lab 11: Task Scheduler
 
+#### Part 1 
+Code the keypad to be a SM task and implements a task scheduler to output the ASCII code for the character being pressed.
+#### Part 2
+Display the message "CS120 is Legend... wait for it DARY!". <br/>
+The string does not fit on the display all at once, so the display scrolls through the text.
+#### Part 3 
+Implement a task scheduler to print the character last pressed.
+#### Part 4
+Have a string displayed that takes up the display and implement a task scheduler to iterate through the display index and output user characters over the string.
+
+[Demo](https://youtu.be/onJCacxnShQ)
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab11)
 
 <div id="lab10"></div>
 
-### Lab 10
+### Lab 10: Concurrent synchSMs
 
+#### Part 1 
+A concurrent SM that runs a SM for threeLDs to alternate each second and another SM blink a fourth light.
+#### Part 2
+An edited concurrent SM from the one above that "appears" to opperate on different periods.
+#### Part 3 
+An edited concurrent SM from the one above that now includes a speaker to be toggled every 2 ms.
+#### Part 4
+Includes user input to change what frequency the speaker outputs audio.
+
+[Demo](https://youtu.be/swwiqgo0ODQ)
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab10)
 
 <div id="lab9"></div>
 
-### Lab 9
+### Lab 9: PWM (Music Player)
 
+#### Part 1 
+With the PWM functionality, a designed system uses three buttons to play three different tones on a speaker.
+#### Part 2
+A SM that uses PWM functionality to scale through the C scale.
+#### Part 3 
+A SM that uses PWM functionality to play Kal Ho Na Ho theme.
+
+[Demo](https://youtu.be/0He5l6V-2h0)
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab9)
 
 <div id="lab8"></div>
 
-### Lab 8
+### Lab 8: ADC
 
+#### Part 1 
+A system that reads the 10-bit ADC result from a potentiometer and displays it on a LED array.
+#### Part 2
+A system that replaces the potentiometer with a photoresistor and displays it on a LED array.
+#### Part 3 
+A system that uses max and min results from previous lab to then only illuminate LED when enough light is detected on the photo resistor.
+#### Part 4
+A system, using a bank of eight LEDs, where the number of LEDs illuminated is a representation of how much light is detected. 
+
+[Demo](https://youtu.be/WifXfBjOIZE)
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab8)
 
 <div id="lab7"></div>
 
-### Lab 7
+### Lab 7: LCD Screen
 
+#### Part 1 
+Output a number that can be incremented or decremented with a button press.
+#### Part 2
+Cycling LED array cycle game, where score is incrememnted when the button is pressed and the middle light is illuminated.
+
+[Demo](https://youtu.be/7MUxzIRRO7U)
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab7)
 
 <div id="lab6"></div>
 
-### Lab 6
+### Lab 6: synchSMs
 
+#### Part 1
+A syncSM that blinks three LEDs in increasing and decreasing order, 1 second each.
+#### Part 2
+A simple light game that requires pressing a button when the middle light is illuminated. Pressing the light again restarts the game.
+#### Part 3
+LEDs represents bit # representation. Pressing one button increases the #, presssing another decreases the #.
+
+[Demo](https://youtu.be/5JkeYeg2FGo)
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab6)
 
 <div id="lab5"></div>
 
-### Lab 5
+### Lab 5: ATMega1284 Microcontroller Intro
 
+#### Part 1
+Based on the fuel tank given as input, have the lights warn what the fuel level is.
+#### Part 2
+Increment or decrement output with button presses.
+#### Part 3
+A festive light display.
+
+[Demo](https://youtu.be/xjrFZ647MQU)
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab5)
 
 <div id="lab4"></div>
 
-### Lab 4
+### Lab 4: State Machines
 
+#### Part 1
+Implemented on button and off button for an LED.
+#### Part 2
+Increment or decrement output based on button press.
+#### Part 3
+Digital combination deadbolt lock system for garage doorway.
+#### Part 4
+Extended dedadbolt where entering the lock key again will then lock the unlocked door.
+#### Part 5
+Further extended deadbolt that requires a 4-button sequence rather than 2-button sequence. This SM is instead represented with an array rather than a state for each button press.
+
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab4)
 
 <div id="lab3"></div>
 
-### Lab 3
+### Lab 3: Bit Manipulation
 
+#### Part 1
+Output the number of the number of 1's on two input ports.
+#### Part 2
+Output fuel level based on fuel tank count.
+#### Part 3
+Extend fuel level output to flash light if seatbelt is not fastened and driver is seated.
+#### Part 4
+Take the upper nibble of PINA and map it to the lower nibble of PORTB and vice versa.
+#### Part 5
+Based on driver seat weight, siginfy whether or not the airbag is abled.
+
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab3)
 
 <div id="lab2"></div>
 
-### Lab 2
-
-
-<!--                        Episode 1                                      -->
-<div id="ep1"></div>
-
-
-## Episode 1: The Chai Chai Talk Intro
-
-<img src="{{ site.url }}/assets/Files/Guests/1_Manny.jpg" width = "50%"/>
-
-
-#### Joined by Manny Garcia
-
-In the first episode of the Chai Chai Talk, we introduce the podcast series itself, as an exploration of the relationship Indian Americans have with music and how it helps them cultivate their identity. American music has an independent culture associated with it. the music you are into, is a conversation starter in and of itself and not restricted to the national boundaries. But the culture associated with Indian music might be inherently alien to some. And therefore we also start with an introduction as to what Indian music tends to be for most Indian Americans. We are joined by Manny Garcia, a fourth year Biology student from Calexico, California who gives an outside perspective. We hope to break the stereotypes that get pushed onto South Asian music and make clearer the diversity in such a large region. 
-<br/>
-
-<audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/1_The_Chai_Chai_Talk_Intro.mp3" 
-            type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JgNctxDDFhKN4VKOd1yyI-p)
-<br/>
-
-
-<!--                        Episode 2                                       -->
-<div id="ep2"> </div>
-
-## Episode 2: Growing Up In America Indian
-
-<img src="{{ site.url }}/assets/Files/Guests/2_Manasi.jpeg" width = "50%"/>
-
-#### Joined by Manasi Soni
-
-In the second episode of the Chai Chai Talk, we introduce the phenomenon of having a dual identity. Being an Indian American often makes it so that we grow up not feeling at home at home. "Immigrant Americans", with the title alone, often regard themselves as different. But if the time ever came to visit where their families came from, their ancestral home is an even bigger unknown. When we grow up in America, we never feel American but when we go to India, we are not treated like Indians. We are joined by Manasi Soni, a third year business major from San Diego, California. She provides insight on what it was like to grow up as an Indian American in America. We hope to paint a clearer picture as to why at some point the question, "...So what are we?", gets asked.
-<br/>
-
-<audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/2_Growing_Up_In America_Indian.mp3" 
-            type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JiHmgr0s6a030jmrnQWp4tm)
-<br/>
-
-
-<!--                        Episode 3                                       -->
-<div id="ep3"> </div>
-
-## Episode 3: Giving Our Children A Diluted India 
-
-<img src="{{ site.url }}/assets/Files/Guests/3_Manasi.png" width = "50%"/>
-
-#### Joined by Manasi Soni
-
-In the third episode of the Chai Chai Talk, we continue our conversation with Manasi Soni. As mentioned before, Manasi is a third year business major from San Diego, California. In the previous episode we admitted a lot of our understanding comes from Indian media (ie: Bollywood). Now we explore how the Bollywood media can never be a faithful representation of Indian culture. And yet it is what we were given and will be one of the few things we are able to carry over from our childhoods into our childrens’. This causes a conundrum when we consider that there is a desire for our children to have a relationship with their Indian heritage. Because the India we have to give to our kids is diluted. 
-<br/>
-
-<audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/3_Giving_Our_Children_A_Diluted_India.mp3" 
-            type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JhZAi5v-BnzyKNC3YFnwAAr)
-<br/>
-
-
-<!--                        Episode 4                                      -->
-<div id="ep4"> </div>
-
-## Episode 4: A Shifting Identity
-
-<img src="{{ site.url }}/assets/Files/Guests/4_Sarena.jpeg" width = "50%"/>
-
-#### Joined by Sarena Minawala
-
-In the fourth episode of the Chai Chai Talk, we are joined by Sarena Minawala. Sarena is a fourth year business major who grew up in Chino Hills, California, a predominantly white area. In the last episode we brought up the question of how we will give our children a relationship with India without having a strong connection ourselves. In this episode we talk to Sarena who grew up in a household of Indian Americans rather than Indian immigrants. Together we discuss the effects of a non Indian upbringing and the later shift she explored in finding her identity on her own.
-<br/>
-
-<audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/4_A_Shifting_Identity.mp3" 
-            type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5Jh-WwjJlcSGjwSUJz-B2keF)
-<br/>
-
-
-<!--                        Episode 5                                      -->
-<div id="ep5"> </div>
-
-## Episode 5: Underground Music Culture 
-
-<img src="{{ site.url }}/assets/Files/Guests/5_Vishant.jpeg" width = "50%"/>
-
-#### Joined by Vishant Gandhi
-
-In the fifth episode of the Chai Chai Talk, we are joined by Vishant Gandhi. Vishant is a third year Bio-Engineering student from Pleasonton, California. So far in this podcast, most of the Indian music brought up, has been movie-music. Vishant introduces the audience to the underground music culture and how it is growing. As it grows it is starting to get integrated with the movie music itself. But we ask the question just how much it will change and challenge the movie music industry I grew up with.
-<br/>
-
-<audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/5_Underground_Music_Culture.mp3" 
-            type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JhY2Pq7ZwmhDU8jYQ1da_en)
-<br/>
-
-
-<!--                        Episode 6                                      -->
-<div id="ep6"> </div>
-
-## Episode 6: Item Song Impact 
-
-<img src="{{ site.url }}/assets/Files/Guests/6_Sarah.jpeg" width = "50%"/>
-
-#### Joined by Sarah Easow
-
-In the sixth episode of the Chai Chai Talk, we are joined by Sarah Easow. Sarah is a third year Neuroscience student from Fremont, California. We have a very difficult conversation that covers  a wide expanse of topics and is definitely not without controversy. Sarah and I attempt to deconstruct the over sexualization/objectification of women in Bollywood that exists despite the restrictive and conservative image of what woman "should" be in India. This Bollywood culture continues to exist by silently discounting the Indian-ness within their item girls. And a current new trend of putting forward non-Indian item girls to sexualize a different culture while maintaining the "cultured" image of an Indian woman. Additionally we will talk about not being the "right" kind of Indian due to our religion and colorism issues we have seen with Indian culture in our Indian upbringing. This is only the start of a conversation that should be continued on.
-<br/>
-
-##### Part 1
-<audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_1.mp3" 
-            type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-##### Part 2
-<audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/6_Item_Song_Impact_Part_2.mp3" 
-            type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JhAaFAPP_5FZp9JZygtY9_b)
-<br/>
-
-
-<!--                        Episode 7                                      -->
-<div id="ep7"> </div>
-
-## Episode 7: Bollywood Music Evolution 
-
-<img src="{{ site.url }}/assets/Files/Guests/7_Nihal.jpeg" width = "50%"/>
-
-#### Joined by Nihal Deopura
-
-In the seventh episode of the Chai Chai Talk, we are joined by Nihal Deopura. Nihal is a second year Business major from Fremont, California. So far in the podcast we have explored two main music trends in Bollywood. Popular independent music gets a new skin and inserted into the next big movie. Item songs have grown as an industry and are becoming more prevalent. But there is a third trend that has taken over the music industry. Similar to movie remake culture in Hollywood, songs of the past are given a modern remake and become part of the movie soundtrack. With these three trends taking over movie albums, songs are rarely an original part of the movie that carries the narrative. And so the music evolution is taking Bollywood music away from the culture I grew up with. What impact will that have on the new viewers, and their children?
-<br/>
-
-<audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/7_Bollywood_Music_Evolution.mp3" 
-            type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5JgVWOo3wDQWAV83qPaAz_yQ)
-<br/>
-
-
-<!--                        Episode 8                                      -->
-<div id="ep8"> </div>
-
-## Episode 8: Immigrant American Music Expression 
-
-<img src="{{ site.url }}/assets/Files/Guests/8_Pratyusha.jpeg" width = "50%"/>
-
-#### Joined by Pratyusha Macherla
-
-In the eight and last episode of the Chai Chai Talk, we are joined by Pratyusha Macherla. Pratyusha is a second year Neuroscience major from San Jose, California. Together we explore the Indian college circuit and the music scene that accompanies it. Tune in, for the last time, to hear how Pratyusha and I took part in the South Asian college community and learned to expand our immigrant identities past the boundaries of India itself. Hopefully you will do the same.
-<br/>
-
-##### Part 1
-<audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_1.mp3" 
-            type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-##### Part 2
-<audio controls preload>
-    <source src  = "{{ site.url }}/assets/ChaiChaiTalk/8_Immigrant_American_Music_Expression_Part_2.mp3" 
-            type = "audio/mpeg"> 
-    "Your browser does not support the audio element."
-</audio>
-
-###### [Songs Used](https://www.youtube.com/playlist?list=PLgsqqgZzA5Jh8_gjkkk3yx3EDPG92ILIm)
-
-
-<br/>
-
-Become a part of the new America. <br/> Drink Boba, eat Ramen, jam to Reggaeton. <br/> Listen, listen, listen, to all the people so excited to share their culture. <br/> In doing so, you will have found the the space to be able to share your own.<br/> <br/>
-
-#### Thank you for listening.
-
-<br/>
-
-##### Thank you to [Dr. Xóchitl C. Chávez](https://music.ucr.edu/faculty/chavez/) for mentoring me on this project.
+### Lab 2: AVR Toolchain Intro
+
+
+#### Part 1
+Illuminate an LED if the garage door is open at night.
+#### Part 2
+Output the number of available parking spaces in a parking garage.
+#### Part 3
+Extended available parking for a warning if parking lot is full.
+#### Part 4
+Weight sensor for amusement park ride with three seats that insures the weight is balanced.
+
+[Source](https://github.com/athom031/EmbeddedSystems/tree/master/projects/source/Lab2)
