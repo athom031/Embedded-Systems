@@ -19,13 +19,13 @@ To run embedded system code change main.c file in source directory and to test p
 
 After doing so use the makefile to program atmega microcontroller or test your source file.
 
-'''
+```
 make program
-'''
+```
 
-'''
+```
 make test
-'''
+```
 
 
 ## Projects
