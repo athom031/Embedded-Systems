@@ -1,0 +1,8 @@
+Breakpoint 1 at 0x398: file source/main.c, line 180.
+Note: automatically using hardware breakpoints for read-only addresses.
+======================================================
+Running all tests..."
+
+"PINB: 0x01"..."PINB: 0x02"..."PINC: 0x04"..."PINC: 0x02"..."PINC: 0x02"...previous tests are from previous part and should still work
+"PORTA: 0x01 => 0x04"...======================================================
+Remote doesn't know how to detach
