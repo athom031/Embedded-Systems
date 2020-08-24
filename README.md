@@ -33,17 +33,17 @@ make test
 ### Table of Contents
 <div>    
     <html>
-        <a href="#lcd">Final Project: LCD Racer</a>
-        <a href="#lab11">Lab 11: Task Scheduler</a>
-        <a href="#lab10">Lab 10: Concurrent synchSMs</a>
-        <a href="#lab9">Lab 9: PWM (Music Player)</a>
-        <a href="#lab8">Lab 8: ADC</a>
-        <a href="#lab7">Lab 7: LCD Screen</a>
-        <a href="#lab6">Lab 6: synchSMs</a>
-        <a href="#lab5">Lab 5: ATMega1284 Microcontroller Intro</a>
-        <a href="#lab4">Lab 4: State Machines</a>
-        <a href="#lab3">Lab 3: Bit Manipulation</a>
-        <a href="#lab2">Lab 2: AVR Toolchain Intro</a>
+        <a href="#lcd">Final Project: LCD Racer</a><br/>
+        <a href="#lab11">Lab 11: Task Scheduler</a><br/>
+        <a href="#lab10">Lab 10: Concurrent synchSMs</a><br/>
+        <a href="#lab9">Lab 9: PWM (Music Player)</a><br/>
+        <a href="#lab8">Lab 8: ADC</a><br/>
+        <a href="#lab7">Lab 7: LCD Screen</a><br/>
+        <a href="#lab6">Lab 6: synchSMs</a><br/>
+        <a href="#lab5">Lab 5: ATMega1284 Microcontroller Intro</a><br/>
+        <a href="#lab4">Lab 4: State Machines</a><br/>
+        <a href="#lab3">Lab 3: Bit Manipulation</a><br/>
+        <a href="#lab2">Lab 2: AVR Toolchain Intro</a><br/>
     </html>
 </div>
 <br/>
