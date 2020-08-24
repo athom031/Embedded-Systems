@@ -31,7 +31,7 @@ make test
 ## Projects
 <!--                    TABLE OF CONTENTS                                   -->
 ### Table of Contents
-<div style="display:flex; flex-direction:column;">    
+<div>    
     <html>
         <a href="#lcd">Final Project: LCD Racer</a>
         <a href="#lab11">Lab 11: Task Scheduler</a>
