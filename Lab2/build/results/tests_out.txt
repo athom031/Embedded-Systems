@@ -1,0 +1,12 @@
+Breakpoint 1 at 0x10a: file source/main.c, line 30.
+Note: automatically using hardware breakpoints for read-only addresses.
+======================================================
+Running all tests..."
+
+check if our code sets up default input and output
+"PINA: 0x00, PINB: 0x00, PINC: 0x00 => PORTD: 0x00"...test overweight weight total
+"PINA: 0x3C, PINB: 0x3C, PINC: 0x3C => PORTD: 0xD1"...test desired weight distribution set
+"PINA: 0x28, PINB: 0x3C, PINC: 0x28 => PORTD: 0xD1"...test unbalanced carts
+"PINA: 0x64, PINB: 0x0A, PINC: 0x0A => PORTD: 0xD1"..."PINA: 0x0A, PINB: 0x0A, PINC: 0x64 => PORTD: 0xD1"...test whether the within 3 messes with mask
+"PINA: 0x35, PINB: 0x20, PINC: 0x64 => PORTD: 0xD1"...======================================================
+Remote doesn't know how to detach
