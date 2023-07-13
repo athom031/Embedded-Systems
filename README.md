@@ -15,9 +15,11 @@ Projects are built with:
 
 ### Compile
 
-To run embedded system code change main.c file in source directory and to test project, change the test.gdb file in the test directory.
-
-After doing so use the makefile to program atmega microcontroller or test your source file.
+To run embedded system code pull desired project files into correct directories.
+1. change main.c in source/ directory to reflect desired source file in project/<desired_project>/source/.c file
+2. Move tests from project/<desired_project>/test to test/ directory
+   
+After doing so, use the makefile to program atmega mictocontroller or test your source file.
 
 ```
 make program
